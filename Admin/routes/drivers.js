@@ -1,7 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const { addDriver } = require('../controller/drivers');
+const { addDriver, getAllDrivers} = require('../controller/drivers');
+
+router.get('/drivers', getAllDrivers);
 
 //Add driver
 router.post('/drivers', addDriver);

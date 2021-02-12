@@ -10,6 +10,10 @@ const createToken = user => {
     });
 };
 
+exports.home_get = (req, res) => {
+    res.render('home');
+}
+
 exports.login_get = async (req, res) => {
     await res.render('login');
 }
