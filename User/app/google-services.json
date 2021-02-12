@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496050874177",
+    "firebase_url": "https://fb-express-d6a56-default-rtdb.firebaseio.com",
+    "project_id": "fb-express-d6a56",
+    "storage_bucket": "fb-express-d6a56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496050874177:android:a92d4b9001666548e163c0",
+        "android_client_info": {
+          "package_name": "com.example.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496050874177-qt7rtmab87mm0e9nq4lqp7hk2f48ev8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user",
+            "certificate_hash": "c9263b81d6c9b80744d1b1f83e2201318285dd9e"
+          }
+        },
+        {
+          "client_id": "496050874177-vse39hqno22ta5hojikveh0melc52ebb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlQZ-bBQCskmUezxJgR5Mkm3HboBkEgnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496050874177-vse39hqno22ta5hojikveh0melc52ebb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

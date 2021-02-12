@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_light"
+        android:paddingVertical="10dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="16dp"
+        android:text="LOGIN"
+        android:layout_marginBottom="60dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:backgroundTint="@color/minimal"
+        app:cornerRadius="40dp"
+        app:icon="@drawable/ic_left"
+        app:iconPadding="6dp"
+        app:iconSize="18dp"
+        app:iconTint="#000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Welcome to"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:text=" Poriskar!"
+            android:textColor="@color/green"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Be the change you want to see\n in this world."
+        android:textColor="#373737"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="303dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            app:boxBackgroundColor="#00FFFFFF"
+            app:boxStrokeColor="@color/green"
+            app:boxStrokeErrorColor="#D61A1A"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/green"
+            app:startIconDrawable="@drawable/ic_person_outlined"
+            app:startIconTint="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="text"
+                android:maxLength="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number"
+            app:boxBackgroundColor="#00FFFFFF"
+            app:boxStrokeColor="@color/green"
+            app:boxStrokeErrorColor="#D61A1A"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/green"
+            app:startIconDrawable="@drawable/ic_phone_outlined"
+            app:startIconTint="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="number"
+                android:maxLength="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            app:boxBackgroundColor="#00FFFFFF"
+            app:boxStrokeColor="@color/green"
+            app:boxStrokeErrorColor="#D61A1A"
+            app:errorEnabled="true"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/green"
+            app:startIconDrawable="@drawable/ic_lock_outlined"
+            app:startIconTint="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pass_word_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="textPassword"
+                android:maxLength="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continue_to_map"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            app:iconGravity="end"
+            app:icon="@drawable/ic_check"
+            android:layout_marginTop="50dp"
+            app:iconSize="24sp"
+            app:iconTint="@color/green"
+            app:iconTintMode="add"
+            android:text="CONTINUE"
+            android:textSize="16sp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            app:iconPadding="18dp"
+            app:cornerRadius="40dp"
+            android:fontFamily="@font/montserrat_light"
+            app:backgroundTint="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>
