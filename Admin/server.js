@@ -9,9 +9,13 @@ app.use(express.urlencoded({ extended: false }));
 
 app.set('view engine', 'ejs');
 
-const authRoutes = require('./routes/auth');
+const auth = require('./routes/auth');
+const driver = require('./routes/drivers');
+const route = require('./routes/routes');
 
-app.use('/', authRoutes);
+app.use('/', auth);
+app.use('/', driver);
+app.use('/', route);
 
 const PORT = process.env.PORT | 3000;
 

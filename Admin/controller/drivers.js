@@ -1,18 +1,19 @@
-const firebase = require('../db');
-// const Driver = require('../models/driver');
+const firebase = require('../db/firebase');
 
 const firestore = firebase.firestore();
 
-const addDriver = async (req, res) => {
+exports.addDriver = async (req, res) => {
     try {
         const data = req.body;
-        await firestore.collection('drivers').doc().set(data);
+        const countData = await firestore.collection('drivers');
+        const getCount = await countData.get();
+        let driversArray = [];
+        getCount.forEach(doc => {
+            driversArray.push(doc.data());   
+        });
+        await firestore.collection('drivers').doc(`driver-${driversArray.length + 1}`).set(data);
         res.send('Record saved successfully!');
     } catch (err) {
         res.status(404).send(err.message);
     }
 }
-
-module.exports = {
-    addDriver, getAllDrivers, getDriverById, updateDriver, deleteDriver
-};
