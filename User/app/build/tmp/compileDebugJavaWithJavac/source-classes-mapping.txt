@@ -1,13 +1,15 @@
 com/example/user/BuildConfig.java
  com.example.user.BuildConfig
-com/example/user/SplashScreen.java
- com.example.user.SplashScreen
- com.example.user.SplashScreen$1
- com.example.user.SplashScreen$2
 com/example/user/StartScreen.java
  com.example.user.StartScreen
  com.example.user.StartScreen$1
 com/example/user/Login.java
  com.example.user.Login
+com/example/user/SplashScreen.java
+ com.example.user.SplashScreen
+ com.example.user.SplashScreen$1
+ com.example.user.SplashScreen$2
+com/example/user/MapMarker.java
+ com.example.user.MapMarker
 com/example/user/Signup.java
  com.example.user.Signup

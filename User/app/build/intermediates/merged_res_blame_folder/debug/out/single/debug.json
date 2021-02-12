@@ -4,20 +4,12 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_lightitalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_lightitalic.ttf"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock_outlined.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_lock_outlined.xml"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_lock.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_check.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_check.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
@@ -28,40 +20,12 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock_outlined.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_lock.xml"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_left.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_left.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_person_outlined.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_outlined.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_person_outlined.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_light.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_light.ttf"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_check.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_check.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_signup.xml"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_loading.json.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\loading.json"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person.png.flat",
@@ -76,12 +40,232 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_phone_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map_marker.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_map_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_down_arrow.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_down_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_splash.json.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\splash.json"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_thinitalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_thinitalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extralightitalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_extralightitalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_regular.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_phone_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_italic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_mediumitalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_mediumitalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_semibolditalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_semibolditalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_phone.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_check.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_login_bg.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable\\ic_login_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_down_arrow.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_down_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_phone_outlined.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_phone_outlined.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_down_arrow.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_down_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lock_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_lock_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_person.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thinitalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_thinitalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_location.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_bebas_neue_regular.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\bebas_neue_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_left.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_bold.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_lock_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_down_arrow.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_down_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_person_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_check.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_condensed_light.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\opensans_condensed_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_semibold.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_route.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\route.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_thin.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_light.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_lightitalic.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_lightitalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_check.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_left.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_outlined.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_person_outlined.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_light.ttf.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_loading.json.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\loading.json"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thin.ttf.flat",
@@ -112,28 +296,12 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable\\ic_startpage_bg.xml"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_phone_outlined.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lock.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_splash.json.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\splash.json"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_thinitalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_thinitalic.ttf"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -148,60 +316,24 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extralightitalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_extralightitalic.ttf"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_person_outlined.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_person_outlined.xml"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_regular.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_regular.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_phone_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_italic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_italic.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_mediumitalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_mediumitalic.ttf"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extralight.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_extralight.ttf"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_semibolditalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_semibolditalic.ttf"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extrabold.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_extrabold.ttf"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\layout\\activity_start.xml"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_location.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_location.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -212,14 +344,6 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_phone.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_phone.xml"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_lightitalic.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_lightitalic.ttf"
     },
@@ -228,60 +352,20 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_check.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_check.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_login_bg.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable\\ic_login_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_blackitalic.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_blackitalic.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_phone_outlined.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_phone_outlined.xml"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lock_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_lock_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_person.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone_outlined.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_phone_outlined.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thinitalic.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_thinitalic.ttf"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_italic.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_italic.ttf"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_extralight_italic.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_extralight_italic.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_bolditalic.ttf.flat",
@@ -300,8 +384,8 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_phone.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_bebas_neue_regular.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\bebas_neue_regular.ttf"
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_location.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extraboldkitalic.ttf.flat",
@@ -312,55 +396,19 @@
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_left.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_left.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xhdpi\\ic_left.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_black.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_black.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_bold.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_bold.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-mdpi\\ic_lock_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_outlined.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_person_outlined.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_check.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_condensed_light.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\opensans_condensed_light.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone.png"
     },
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_semibold.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_semibold.ttf"
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_down_arrow.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down_arrow.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-hdpi\\ic_person.png"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_thin.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_thin.ttf"
-    },
-    {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_light.ttf.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\montserrat_light.ttf"
     }
 ]
