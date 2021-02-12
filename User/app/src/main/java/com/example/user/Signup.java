@@ -26,7 +26,7 @@ public class Signup extends AppCompatActivity {
 
         continue_to_map = (MaterialButton)findViewById(R.id.continue_to_map);
         continue_to_map.setOnClickListener(v -> {
-//            startActivity(new Intent(Signup.this,MapMarker.class));
+            startActivity(new Intent(Signup.this,MapMarker.class));
         });
 
         to_login = (MaterialButton)findViewById(R.id.back_to_login);
