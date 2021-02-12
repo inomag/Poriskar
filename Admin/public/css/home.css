@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: green;
+    width: 100%;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+#logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar-right ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+
+/* WELCOME LINE */
+
+#welcome_line {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Days One', sans-serif;
+}
+
+
+/* RECTANGLE */
+
+.leftRectangle {
+    border: 3px solid green;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.rightRectangle {
+    border: 3px solid green;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* LINKS */
+
+.linksContainer {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksContainer a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.linksContainer a:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/* FOOTER */
+
+#footer {
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    position: fixed;
+    padding-top: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
