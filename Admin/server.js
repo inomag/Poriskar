@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 const authRoutes = require('./routes/auth');
 
-app.use('/api', authRoutes);
+app.use('/', authRoutes);
 
 const PORT = process.env.PORT | 3000;
 
