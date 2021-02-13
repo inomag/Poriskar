@@ -23,7 +23,13 @@
         <div class="navbar-right">
             <ul>
                 <li><a id="home_link" href="/">Home</a></li>
-                <li><a id="login_link" href="/login">Log in</a></li>
+
+                <% if(user) { %>
+                    <li><a id="login_link" href="/logout">Log out</a></li>
+                    <% } else { %>
+                        <li><a id="login_link" href="/login">Log in</a></li>
+                        <% } %>
+
             </ul>
         </div>
     </div>
