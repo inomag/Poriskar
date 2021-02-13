@@ -19,16 +19,6 @@ exports.getAllRoutes = async (req, res, next) => {
             res.status(404).send('No route found!');
         } else {
             data.forEach(doc => {
-
-                latlng.push(JSON.stringify(doc.data().latitude));
-                latlng.push(JSON.stringify(doc.data().longitude));
-
-                // const city = setInterval(() => fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.4edf8bbe85b984dd6cbd44fe05bfc725&lat=27.235327&lon=94.095998&format=json`)
-                //     .then(res => res.json()).then(data => {
-                //         console.log(data);
-                //         return data;
-                //     }), 1000);
-
                 const route = new Route(
                     doc.id,
                     doc.data().name,
@@ -44,6 +34,30 @@ exports.getAllRoutes = async (req, res, next) => {
     } catch (err) {
         res.status(404).send(err.message);
     }
+}
+
+function geocodeLatLng(geocoder, lat, lng) {
+    const latlng = {
+        // lat: 26.4169232,
+        // lng: 91.062411
+        lat,
+        lng
+    };
+    geocoder.geocode({
+        location: latlng
+    }, (results, status) => {
+        if (status === "OK") {
+            if (results) {
+                console.log(results);
+                // document.getElementById('map').innerHTML = `<h2>Address: ${results[1].formatted_address} </h2>`;
+                return results;
+            } else {
+                window.alert("No results found");
+            }
+        } else {
+            window.alert("Geocoder failed due to: " + status);
+        }
+    });
 }
 
 exports.addRoad = async (req, res) => {
