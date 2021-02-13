@@ -23,20 +23,22 @@ Installation</h3>
 </ol>
 <pre><code>cd Poriskar
 
-span
+</code></pre>
+<ol start="4">
+<li>Since the operational code is in the <code>admin-backend</code>, and the current branch is <code>master</code>, checkout a tracking branch pointing to the <code>admin-backend</code> of the remote repo (changes will get pulled automatically)</li>
+</ol>
 
-code
+<pre><code>git checkout origin/admin-backend
 
-code
-
-code
+</code></pre>
+<ol start="5">
+<li>Open your git bash or cmd again, and cd to the <strong>Poriskar</strong> directory. Then</li>
 
 <pre><code>npm install
 </code></pre>
 
 <p>After all packages have gotten installed,</p>
 <pre><code>npm run dev
-
 </code></pre>
 <p>Web app will be accessible at <code>localhost:3000</code></p>
 </article>
