@@ -30,11 +30,15 @@
     <!-- LIST -->
     <div class="driversList">
         <% drivers.forEach(driver => {  %>
-            <a href="#" class="driversListItem rectangle">
-Name: <%= driver.name %> 
-            <br>
-            ID: <%= driver.id %> 
-        </a>
+            <p class="text-info driversListItem rectangle">
+                <strong> Name:
+                <%= driver.name %>
+                    </strong>
+                <br> ID:
+                <%= driver.id %>
+                    <br> Assigned Route:
+                    <%= driver.route %>
+            </p>
             <% }); %>
     </div>
 

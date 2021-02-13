@@ -20,7 +20,6 @@ exports.login_get = async (req, res) => {
 
 exports.login_post = async (req, res) => {
     const { email, password } = req.body;
-    // console.log(req.body);
 
     try {
         const snapshot = await firebase.firestore().collection('admin').get();
