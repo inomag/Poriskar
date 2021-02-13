@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="route_names">
-        <item>Route No. 1</item>
-        <item>Route No. 2</item>
-        <item>Route No. 3</item>
-        <item>Route No. 4</item>
-        <item>Route No. 5</item>
+        <item>Route No 1</item>
+        <item>Route No 2</item>
+        <item>Route No 3</item>
+        <item>Route No 4</item>
+        <item>Route No 5</item>
     </array>
 </resources>

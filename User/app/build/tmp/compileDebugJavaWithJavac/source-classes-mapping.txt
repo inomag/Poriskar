@@ -1,19 +1,30 @@
+com/example/user/directionhelpers/FetchURL.java
+ com.example.user.directionhelpers.FetchURL
 com/example/user/BuildConfig.java
  com.example.user.BuildConfig
+com/example/user/directionhelpers/DataParser.java
+ com.example.user.directionhelpers.DataParser
 com/example/user/StartScreen.java
  com.example.user.StartScreen
  com.example.user.StartScreen$1
 com/example/user/Login.java
  com.example.user.Login
-com/example/user/SplashScreen.java
- com.example.user.SplashScreen
- com.example.user.SplashScreen$1
- com.example.user.SplashScreen$2
+com/example/user/directionhelpers/TaskLoadedCallback.java
+ com.example.user.directionhelpers.TaskLoadedCallback
 com/example/user/MapMarker.java
  com.example.user.MapMarker
  com.example.user.MapMarker$1
  com.example.user.MapMarker$2
  com.example.user.MapMarker$3
+ com.example.user.MapMarker$4
+ com.example.user.MapMarker$5
+ com.example.user.MapMarker$6
 com/example/user/Signup.java
  com.example.user.Signup
  com.example.user.Signup$1
+com/example/user/directionhelpers/PointsParser.java
+ com.example.user.directionhelpers.PointsParser
+com/example/user/SplashScreen.java
+ com.example.user.SplashScreen
+ com.example.user.SplashScreen$1
+ com.example.user.SplashScreen$2

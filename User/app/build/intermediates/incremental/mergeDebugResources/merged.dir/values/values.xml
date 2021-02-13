@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <array name="route_names">
-        <item>Route No. 1</item>
-        <item>Route No. 2</item>
-        <item>Route No. 3</item>
-        <item>Route No. 4</item>
-        <item>Route No. 5</item>
+        <item>Route No 1</item>
+        <item>Route No 2</item>
+        <item>Route No 3</item>
+        <item>Route No 4</item>
+        <item>Route No 5</item>
     </array>
     <attr format="reference" name="animate_relativeTo"/>
     <attr format="reference" name="appBarLayoutStyle"/>
@@ -1056,6 +1056,7 @@
     <string name="google_api_key" translatable="false">AIzaSyAlQZ-bBQCskmUezxJgR5Mkm3HboBkEgnk</string>
     <string name="google_app_id" translatable="false">1:496050874177:android:a92d4b9001666548e163c0</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAlQZ-bBQCskmUezxJgR5Mkm3HboBkEgnk</string>
+    <string name="google_maps_key" translatable="false">AIzaSyAiV8MGrT9E9Smrch6qggGdmj2-qDwFDQ8</string>
     <string name="google_storage_bucket" translatable="false">fb-express-d6a56.appspot.com</string>
     <string name="gps_network_not_enabled">gps not enabled Pleased enable it</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -3723,17 +3724,17 @@
     <item name="windowNoTitle">true</item>
   </style>
     <style name="Theme.User" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>

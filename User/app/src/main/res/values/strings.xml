@@ -15,5 +15,8 @@
     <string name="gps_network_not_enabled">gps not enabled Pleased enable it</string>
     <string name="Cancel">Cancelled</string>
 
+    <string name="google_maps_key" translatable="false">AIzaSyAiV8MGrT9E9Smrch6qggGdmj2-qDwFDQ8</string>
+
+
 
 </resources>
