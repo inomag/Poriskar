@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera.png.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_camera.png"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera.png.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_camera.png"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock_outlined.xml.flat",
@@ -466,6 +466,10 @@
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_italic.ttf.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\font\\worksans_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_nav_home.xml.flat",

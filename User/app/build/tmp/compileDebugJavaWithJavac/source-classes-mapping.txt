@@ -17,10 +17,15 @@ com/example/user/directionhelpers/PointsParser.java
  com.example.user.directionhelpers.PointsParser
 com/example/user/directionhelpers/FetchURL.java
  com.example.user.directionhelpers.FetchURL
-com/example/user/SplashScreen.java
- com.example.user.SplashScreen
- com.example.user.SplashScreen$1
- com.example.user.SplashScreen$2
+com/example/user/HomeActivity.java
+ com.example.user.HomeActivity
+ com.example.user.HomeActivity$1
+ com.example.user.HomeActivity$2
+ com.example.user.HomeActivity$3
+ com.example.user.HomeActivity$4
+ com.example.user.HomeActivity$5
+ com.example.user.HomeActivity$5$1
+ com.example.user.HomeActivity$5$1$1
 com/example/user/directionhelpers/DataParser.java
  com.example.user.directionhelpers.DataParser
 com/example/user/StartScreen.java
@@ -28,9 +33,6 @@ com/example/user/StartScreen.java
  com.example.user.StartScreen$1
 com/example/user/directionhelpers/TaskLoadedCallback.java
  com.example.user.directionhelpers.TaskLoadedCallback
-com/example/user/HomeActivity.java
- com.example.user.HomeActivity
- com.example.user.HomeActivity$1
 com/example/user/MapMarker.java
  com.example.user.MapMarker
  com.example.user.MapMarker$1
@@ -39,3 +41,7 @@ com/example/user/MapMarker.java
  com.example.user.MapMarker$4
  com.example.user.MapMarker$5
  com.example.user.MapMarker$6
+com/example/user/SplashScreen.java
+ com.example.user.SplashScreen
+ com.example.user.SplashScreen$1
+ com.example.user.SplashScreen$2
