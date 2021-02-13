@@ -1,21 +1,21 @@
-com/example/moderator/Login.java
- com.example.moderator.Login
- com.example.moderator.Login$1
- com.example.moderator.Login$1$1
+com/example/moderator/SplashScreen.java
+ com.example.moderator.SplashScreen
+ com.example.moderator.SplashScreen$1
+ com.example.moderator.SplashScreen$2
 com/example/moderator/BuildConfig.java
  com.example.moderator.BuildConfig
-com/example/moderator/HomeActivity.java
- com.example.moderator.HomeActivity
-com/example/moderator/HomeFragment.java
- com.example.moderator.HomeFragment
+com/example/moderator/SocialFragment.java
+ com.example.moderator.SocialFragment
 com/example/moderator/HelpFragment.java
  com.example.moderator.HelpFragment
 com/example/moderator/StartScreen.java
  com.example.moderator.StartScreen
  com.example.moderator.StartScreen$1
-com/example/moderator/SocialFragment.java
- com.example.moderator.SocialFragment
-com/example/moderator/SplashScreen.java
- com.example.moderator.SplashScreen
- com.example.moderator.SplashScreen$1
- com.example.moderator.SplashScreen$2
+com/example/moderator/Login.java
+ com.example.moderator.Login
+ com.example.moderator.Login$1
+ com.example.moderator.Login$1$1
+com/example/moderator/HomeActivity.java
+ com.example.moderator.HomeActivity
+com/example/moderator/HomeFragment.java
+ com.example.moderator.HomeFragment
