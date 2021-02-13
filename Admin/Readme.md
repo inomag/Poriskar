@@ -1,51 +1,60 @@
-<ul>
-<li>GET <code>/</code> -> Renders the home page</li>
-<li>User authentication routes
-<ul>
-<li>GET <code>/login</code> -> Renders the login view</li>
-<li>GET <code>/logout</code> -> Logs the user out and redirects to <code>/</code> route</li>
-<li>GET <code>/drivers</code> -> Renders the drivers page</li>
-<li>GET <code>/routes</code> -> Renders the routes page</li>
+# Poriskar
 
-<li>POST <code>/drivers/assign-route</code> -> Assign one particular route to one driver</li>
+Project name is a `Poriskar` that allows `general public` to do the household dumping in a more convenient and secure way.
 
-Installation</h3>
+The project is basically focused finding a bridge between the municiplaity and the general public in order to dump their daily household wastes as well as wastes found here and there!
 
-<p>(Note : These instructions are only for developers/testers for now)</p>
-<ol>
-<li>Open git bash or cmd</li>
-<li>Clone the repo:</li>
-</ol>
-<pre><code>git clone https://github.com/Bucephalus-lgtm/Poriskar
-</code></pre>
-<ol start="3">
-<li>Change to the <strong>Poriskar</strong> directory</li>
-</ol>
-<pre><code>cd Poriskar
+## Prerequisites
 
-</code></pre>
-<ol start="4">
-<li>Since the operational code is in the <code>admin-backend</code>, and the current branch is <code>master</code>, checkout a tracking branch pointing to the <code>admin-backend</code> of the remote repo (changes will get pulled automatically)</li>
-</ol>
+Before you begin, ensure you have met the following requirements:
 
-<pre><code>git checkout origin/admin-backend
+* You have installed the latest version of `nodejs`
 
-</code></pre>
-<ol start="5">
-<li>Open your git bash or cmd again, and cd to the <strong>Poriskar</strong> directory. Then</li>
+## Run `Poriskar` locally
 
-<pre><code>npm install
-</code></pre>
+```bash
+git clone https://github.com/Bucephalus-lgtm/Poriskar.git
+```
 
-<p>After all packages have gotten installed,</p>
-<pre><code>npm run dev
-</code></pre>
-<p>Web app will be accessible at <code>localhost:3000</code></p>
-</article>
-      </div>
-  </div>
+Then redirect to the directory `Poriskar`.
 
+```bash
+cd Poriskar
+```
 
-  
-  
-</div>
+Inside here, you will find our code, but the dependencies required are missing, so you get to install them
+
+```bash
+npm install
+```
+
+After all the dependenices get installed in your node_modules file, you can run the app locally from your favorite text editor by runnig
+
+```bash
+npm start 
+```
+
+## Contributing to `Poriskar`
+
+To contribute to `Poriskar`, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Contributors
+
+Currently, our team consists of five people who have actively contributed to this project:
+
+* [@Pratik Gupta](https://github.com/inomag)
+* [@Abhimayu Giri](https://github.com/abhimanyunlp)
+* [@Nilesh Bhandari](https://github.com/css-is-tough)
+* [@Bhargab Nath](https://github.com/Bucephalus-lgtm)
+
+## Contact
+
+If you want to contact us you can reach us at `bhargabnath691@gmail.com`

@@ -9,7 +9,7 @@ exports.getAllMarkedLocations = async (req, res) => {
         const data = await markedLocationsRef.get();
         const markedLocations = [];
         if (data.empty) {
-            res.status(404).send('No driver found!');
+            res.status(404).send('Not any locations are found!');
         } else {
             data.forEach(doc => {
                 // console.log(doc.id);
@@ -45,7 +45,7 @@ exports.approve_location_post = async (req, res) => {
         // Delete the document for markedLocation
         await firestore.collection('marked_locations').doc(id).delete();
 
-        res.send('Successfully approved locations!');
+        res.redirect('/social');
     } catch (err) {
         res.status(404).send(err.message);
     }
@@ -58,7 +58,7 @@ exports.discard_location_post = async (req, res) => {
         // Delete the document for markedLocation
         await firestore.collection('marked_locations').doc(id).delete();
 
-        res.send('Successfully deleted marked locations!');
+        res.redirect('/social');
     } catch (err) {
         res.status(404).send(err.message);
     }

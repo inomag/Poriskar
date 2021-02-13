@@ -44,6 +44,6 @@ app.use('/', driver);
 app.use('/', route);
 app.use('/', location);
 
-const PORT = process.env.PORT | 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}...`));
