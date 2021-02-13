@@ -53,14 +53,9 @@ public class Login extends AppCompatActivity {
                                     String passcode = doc.get(0).getString("password");
                                     if (pass.equals(passcode)){
                                        Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
-                                       intent.putExtra("phone",String.valueOf(l));
+                                       intent.putExtra("phone",l);
                                        startActivity(intent);
-
-
-
-
-
-                                        Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+                                       Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
                                     }
                                     else{
                                         Toast.makeText(getApplicationContext(),"Unsuccessful",Toast.LENGTH_SHORT).show();
