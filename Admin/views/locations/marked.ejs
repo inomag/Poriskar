@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/drivers_list.css">
+    <link rel="stylesheet" href="/css/social.css">
     <title>Hello, world!</title>
 </head>
 
@@ -22,34 +22,96 @@
         <p id="logo">PORISKAR</p>
         <div class="navbar-right">
             <ul>
-                <li><a id="home_link" href="/">Home</a></li>
-                <li><a href="/drivers">Drivers</a></li>
-                <li><a href="/routes">Routes</a></li>
-
-                <% if(user) { %>
-                    <li><a id="login_link" href="/logout">Log out</a></li>
-                    <% } else { %>
-                        <li><a id="login_link" href="/login">Log in</a></li>
-                        <% } %>
-
+                <li><a id="home_link" href="index.html">Home</a></li>
+                <li><a id="login_link" href="login.html">Log in</a></li>
+                <!-- <li><a id="register_link" href="signup.html">Register</a></li> -->
             </ul>
         </div>
     </div>
 
 
-    <!-- LIST -->
-    <div class="driversList">
-        <% markedLocations.forEach(mlocation => {  %>
+    <div class="socialLine">Social!</div>
 
-            <p class="text-info driversListItem rectangle">
-                <img width="100" height="100" src="<%= mlocation.image %>" alt="">
-            </p>
+
+    <!-- IMAGE CONTAINER -->
+
+    <div class="imageContainer">
+        <!-- <div class="imageCard">
+            <image src="/images/landscape (3).jpg"></image>
+            <p class="imageAddress">Raiway Colony, North Lakhimpur</p>
+            <div class="cardButtonContainer">
+                <button class="cardButton" id="btn_approve">Approve</button>
+                <button class="cardButton" id="btn_discard">Discard</button>
+            </div>
+        </div>
+
+        <div class="imageCard">
+            <image src="/images/landscape (3).jpg"></image>
+            <p class="imageAddress">Raiway Colony, North Lakhimpur</p>
+            <div class="cardButtonContainer">
+                <button class="cardButton" id="btn_approve">Approve</button>
+                <button class="cardButton" id="btn_discard">Discard</button>
+            </div>
+        </div> -->
+
+        <% markedLocations.forEach(mLoc => {  %>
+
+            <div class="imageCard">
+
+                <img id="img" width="300" height="300" src="<%= mLoc.image %>" />
+                <p class="imageAddress">
+                    <%= mLoc.address %>
+                </p>
+
+                <form method="POST" action="">
+                    <input type="hidden" name="image" value="<%= mLoc.image %>">
+                    <input type="hidden" name="address" value="<%=mLoc.address  %>">
+                    <input type="hidden" name="id" value="<%= mLoc.id %>">
+
+
+                    <div class="cardButtonContainer">
+                        <button formaction="/locations/approve" class="cardButton" id="btn_approve"> Approve</button>
+                        <button formaction="/locations/discard" class="cardButton" id="btn_discard">Discard</button>
+                    </div>
+                </form>
+
+            </div>
             <% }); %>
+
+                <!-- <div class="imageCard">
+            <image src="/images/landscape (3).jpg"></image>
+            <p class="imageAddress">Raiway Colony, North Lakhimpur</p>
+            <div class="cardButtonContainer">
+                <button class="cardButton" id="btn_approve">Approve</button>
+                <button class="cardButton" id="btn_discard">Discard</button>
+            </div>
+        </div>
+
+        <div class="imageCard">
+            <image src="landscape (3).jpg"></image>
+            <p class="imageAddress">Raiway Colony, North Lakhimpur</p>
+            <div class="cardButtonContainer">
+                <button class="cardButton" id="btn_approve">Approve</button>
+                <button class="cardButton" id="btn_discard">Discard</button>
+            </div>
+        </div>
+
+        <div class="imageCard">
+            <image src="landscape (3).jpg"></image>
+            <p class="imageAddress">Raiway Colony, North Lakhimpur</p>
+            <div class="cardButtonContainer">
+                <button class="cardButton" id="btn_approve">Approve</button>
+                <button class="cardButton" id="btn_discard">Discard</button>
+            </div>
+        </div> -->
+
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
 </body>
+
+<script>
+    const image = document.getElementById('img').src;
+    console.log(image);
+</script>
 
 </html>
