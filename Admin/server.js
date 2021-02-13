@@ -2,8 +2,25 @@ const dotenv = require('dotenv');
 dotenv.config();
 const express = require('express');
 const cookieParser = require('cookie-parser');
+const session = require('express-session');
 
 const app = express();
+
+
+app.use(session({
+    secret: 'BHARGAB',
+    resave: false,
+    saveUninitialized: false
+}));
+
+// app.use((req, res, next) => {
+//     if (!req.session.viewCount) {
+//         req.session.viewCount = 1;
+//     } else {
+//         req.session.viewCount += 1;
+//     }
+//     res.render('test', { viewCount: req.session.viewCount });
+// })
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

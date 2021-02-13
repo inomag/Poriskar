@@ -44,17 +44,22 @@
         <% routes.forEach(route => {  %>
             <% if(route.id != 0) { %>
                 <div class="text-info routesListItem rectangle">
+
+
                     <strong> Name: 
                 <%= route.name %>
             </strong>
                     <br> ID:
                     <%= route.id %>
                         <br>
-                        <button class="btn btn-info" onclick="getAddress(`<%= route.latitude %>`, `<%= route.longitude %> `)">See Address
-                            </button>
-                        <p id="<%= route.latitude %>">
 
-                            <% } %>
+                        <div class="btnContainer">
+                            <button id="btn-<%= route.latitude %>" class="btnAddress" onclick="getAddress(`<%= route.latitude %>`, `<%= route.longitude %> `)">See Address
+                            </button>
+                            <p class="address_details" id="<%= route.latitude %>">
+                        </div>
+
+                        <% } %>
 
                 </div>
 
@@ -67,30 +72,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
-<script>
-    const getAddress = (lat, lng) => {
-        const geocoder = new google.maps.Geocoder();
-        const location = new google.maps.LatLng(lat, lng);
-
-        geocoder.geocode({
-            'latLng': location
-        }, (results, status) => {
-            if (status === "OK") {
-                if (results) {
-                    console.log(results);
-                    const address = document.createElement('p');
-                    address.classList.add('text-info');
-                    address.innerText = `Address: ${results[0].formatted_address}`;
-                    document.getElementById(`${lat}`).appendChild(address);
-                    return results;
-                } else {
-                    window.alert("No results found");
-                }
-            } else {
-                window.alert("Geocoder failed due to: " + status);
-            }
-        });
-    }
-</script>
+<script src="/js/reverse-geocoding.js"></script>
 
 </html>
