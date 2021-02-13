@@ -200,6 +200,10 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\montserrat_italic.ttf"
     },
     {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\raw_done.json.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\raw\\done.json"
+    },
+    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_login_bg.xml.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\ic_login_bg.xml"
     },

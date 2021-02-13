@@ -1,5 +1,6 @@
 package com.example.moderator;
 
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.Menu;
@@ -21,15 +22,25 @@ public class HomeActivity extends AppCompatActivity {
     private NestedScrollView nested_scroll_view;
     private BottomNavigationView bottomNavigationView;
 
+
+    String myString;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        Intent intent=getIntent();
+        myString=intent.getStringExtra("phone");
+
         initComponent();
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new HomeFragment()).commit();
         }
+    }
+
+    public String getMyData(){
+        return myString;
     }
 
 
