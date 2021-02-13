@@ -153,8 +153,8 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
 
         continue_to_home = (MaterialButton) findViewById(R.id.done_btn);
         continue_to_home.setOnClickListener(v -> {
-//            startActivity(new Intent(MapMarker.this, HomeActivity.class));
-//            finish();
+            startActivity(new Intent(MapMarker.this, HomeActivity.class));
+            finish();
         });
 
         SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
