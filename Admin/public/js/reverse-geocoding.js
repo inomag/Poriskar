@@ -7,7 +7,6 @@ const getAddress = (lat, lng) => {
     }, (results, status) => {
         if (status === "OK") {
             if (results) {
-                console.log(results);
                 const address = document.createElement('p');
                 address.classList.add('text-info');
                 address.innerText = `Address: ${results[0].formatted_address}`;
