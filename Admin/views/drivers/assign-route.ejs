@@ -23,8 +23,15 @@
         <div class="navbar-right">
             <ul>
                 <li><a id="home_link" href="/">Home</a></li>
-                <li><a id="login_link" href="/login">Log in</a></li>
-                <!-- <li><a id="register_link" href="signup.html">Register</a></li> -->
+                <li><a href="/drivers">Drivers</a></li>
+                <li><a href="/routes">Routes</a></li>
+
+                <% if(user) { %>
+                    <li><a id="login_link" href="/logout">Log out</a></li>
+                    <% } else { %>
+                        <li><a id="login_link" href="/login">Log in</a></li>
+                        <% } %>
+
             </ul>
         </div>
     </div>
@@ -53,12 +60,15 @@
 
                 <% routes.forEach(route => {  %>
 
-                    <p><input type="radio" name="route" value="<%= route.id %>" class="routeCheckbox"><span class="checkboxText">
+                    <% if(route.id !== 0) {%>
+
+                        <p><input type="radio" name="route" value="<%= route.id %>" class="routeCheckbox"><span class="checkboxText">
                         &nbsp&nbsp&nbsp
                         <%= route.name %>
                     </span></p>
+                        <% } %>
 
-                    <% }); %>
+                            <% }); %>
             </fieldset>
             <div class="btnAssignContainer">
                 <div class="btnAssign">

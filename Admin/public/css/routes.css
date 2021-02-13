@@ -84,3 +84,7 @@ List a:hover {
     color: green;
     font-weight: bold;
 }
+
+.text-info {
+    color: green !important;
+}
