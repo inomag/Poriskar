@@ -8,3 +8,154 @@
 <li>GET <code>/routes</code> -> Renders the routes page</li>
 
 <li>POST <code>/drivers/assign-route</code> -> Assign one particular route to one driver</li>
+
+Installation</h3>
+
+<p>(Note : These instructions are only for developers/testers for now)</p>
+<ol>
+<li>Open git bash or cmd</li>
+<li>Clone the repo:</li>
+</ol>
+<pre><code>git clone https://github.com/Bucephalus-lgtm/Poriskar
+</code></pre>
+<ol start="3">
+<li>Change to the <strong>Poriskar</strong> directory</li>
+</ol>
+<pre><code>cd Poriskar
+</code></pre>
+<ol start="4">
+<li>Since the operational code is in the <code>admin-backend</code>, and the current branch is <code>master</code>, checkout a tracking branch pointing to the <code>admin-backend</code> of the remote repo (changes will get pulled automatically)</li>
+</ol>
+<pre><code>git checkout --track origin/admin-backend
+</code></pre>
+<ol start="5">
+<li>Obtain the <strong>.env</strong> file and place it inside the root (<strong>Poriskar</strong>) directory</li>
+<li>Open your git bash or cmd again, and cd to the <strong>Poriskar</strong> directory. Then</li>
+</ol>
+<pre><code>npm install
+</code></pre>
+<p>After all packages have gotten installed,</p>
+<pre><code>npm run dev
+</code></pre>
+<p>Web app will be accessible at <code>localhost:3000</code></p>
+</article>
+      </div>
+  </div>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
