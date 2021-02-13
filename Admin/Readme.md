@@ -10,7 +10,7 @@ Before you begin, ensure you have met the following requirements:
 
 * You have installed the latest version of `nodejs`
 
-## Run the app locally
+## Run `Poriskar` locally
 
 ```bash
 git clone https://github.com/Bucephalus-lgtm/Poriskar.git
