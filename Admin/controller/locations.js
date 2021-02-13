@@ -1,4 +1,5 @@
 const firebase = require('../db/firebase');
+const MarkedLocation = require('../model/MarkedLocation');
 
 const firestore = firebase.firestore();
 
@@ -11,18 +12,53 @@ exports.getAllMarkedLocations = async (req, res) => {
             res.status(404).send('No driver found!');
         } else {
             data.forEach(doc => {
-                // const driver = new Driver(
-                //     doc.id,
-                //     doc.data().name,
-                //     doc.data().phone_no,
-                //     doc.data().route
-                // );
-                markedLocations.push(doc.data());
+                // console.log(doc.id);
+                const markedlocation = new MarkedLocation(
+                    doc.id,
+                    doc.data().image,
+                    doc.data().address
+                );
+                markedLocations.push(markedlocation);
+                // console.log(markedLocations);
             });
             res.render('locations/marked', {
-                markedLocations
+                markedLocations,
+                firestore
             });
         }
+    } catch (err) {
+        res.status(404).send(err.message);
+    }
+}
+
+exports.approve_location_post = async (req, res) => {
+    try {
+        const { id, image, address } = req.body;
+
+        // Add the data to a new documnent of approve_locations
+        const approvedLocationRef = await firestore.collection('approved_locations');
+        await approvedLocationRef.doc().set({
+            image,
+            address
+        });
+
+        // Delete the document for markedLocation
+        await firestore.collection('marked_locations').doc(id).delete();
+
+        res.send('Successfully approved locations!');
+    } catch (err) {
+        res.status(404).send(err.message);
+    }
+}
+
+exports.discard_location_post = async (req, res) => {
+    try {
+        const { id } = req.body;
+
+        // Delete the document for markedLocation
+        await firestore.collection('marked_locations').doc(id).delete();
+
+        res.send('Successfully deleted marked locations!');
     } catch (err) {
         res.status(404).send(err.message);
     }
