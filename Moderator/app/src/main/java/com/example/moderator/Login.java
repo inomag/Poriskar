@@ -52,8 +52,10 @@ public class Login extends AppCompatActivity {
                                     List<DocumentSnapshot> doc = task.getResult().getDocuments();
                                     String passcode = doc.get(0).getString("password");
                                     if (pass.equals(passcode)){
-                                        startActivity(new Intent(getApplicationContext(),HomeActivity.class));
-                                        Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+                                       Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                                       intent.putExtra("phone",l);
+                                       startActivity(intent);
+                                       Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
                                     }
                                     else{
                                         Toast.makeText(getApplicationContext(),"Unsuccessful",Toast.LENGTH_SHORT).show();

@@ -48,6 +48,7 @@
                             android:orientation="horizontal">
 
                             <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/home_anim"
                                 android:layout_width="125dp"
                                 android:layout_height="125dp"
                                 app:lottie_loop="true"
@@ -61,6 +62,7 @@
                                 android:gravity="center_vertical"
                                 android:orientation="vertical">
                                 <TextView
+                                    android:id="@+id/route_head"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="ROUTE ASSIGNED"
@@ -69,7 +71,7 @@
                                     android:fontFamily="@font/montserrat_light"
                                     android:textColor="@color/black"/>
                                 <TextView
-                                    android:id="@+id/address"
+                                    android:id="@+id/route_info"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Route No 1"
@@ -187,7 +189,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Sent"
+                                    android:text="Location"
                                     android:fontFamily="@font/montserrat_regular"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
                                     android:textColor="@color/green" />
@@ -196,7 +198,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="10 jan 2018 07:38"
+                                    android:text="Location Address, 13 Feb, 2021"
                                     android:fontFamily="@font/montserrat_regular"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                                     android:textColor="@color/black" />

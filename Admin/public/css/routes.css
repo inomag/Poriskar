@@ -84,3 +84,36 @@ List a:hover {
     color: green;
     font-weight: bold;
 }
+
+.text-info {
+    color: green !important;
+}
+
+.btnContainer {
+    margin-top: 10px;
+}
+
+.address_details {
+    margin-top: 8px;
+    display: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.btnContainer button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 15px;
+    padding: 7px 10px;
+    background-color: #007df6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnContainer button:focus {
+    outline: none;
+}
+
+.btnContainer button:hover {
+    cursor: pointer;
+}

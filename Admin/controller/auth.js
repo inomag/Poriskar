@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const firebase = require('../db/firebase');
 
 //Create a jwt token using user email id 
-const maxAge = 365 * 24 * 60 * 60;
+const maxAge = 365 * 24 * 60 * 60 * 1000;
 const createToken = user => {
     return jwt.sign({ user }, 'secretKey', {
         expiresIn: maxAge
