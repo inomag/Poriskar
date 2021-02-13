@@ -3,7 +3,7 @@ class Driver {
         this.id = id;
         this.name = name;
         this.phone = phone;
-        this.route = null;
+        this.route = route;
     }
 }
 

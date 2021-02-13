@@ -20,8 +20,8 @@
         <p id="logo">PORISKAR</p>
         <div class="navbar-right">
             <ul>
-                <li><a id="home_link" href="index.html">Home</a></li>
-                <li><a id="login_link" href="login.html">Log in</a></li>
+                <li><a id="home_link" href="/">Home</a></li>
+                <li><a id="login_link" href="/login">Log in</a></li>
             </ul>
         </div>
     </div>
@@ -30,11 +30,15 @@
     <!-- LIST -->
     <div class="driversList">
         <% drivers.forEach(driver => {  %>
-            <a href="#" class="driversListItem rectangle">
-Name: <%= driver.name %> 
-            <br>
-            ID: <%= driver.id %> 
-        </a>
+            <p class="text-info driversListItem rectangle">
+                <strong> Name:
+                <%= driver.name %>
+                    </strong>
+                <br> ID:
+                <%= driver.id %>
+                    <br> Assigned Route:
+                    <%= driver.route %>
+            </p>
             <% }); %>
     </div>
 

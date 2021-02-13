@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: green;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+#logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar-right ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+
+/* ASSIGN ROUTES */
+
+.formAssignRoutes {
+    margin-top: 100px;
+    width: 100vw;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.assignContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.weekdayHeader {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btnAssignContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn_assign_route {
+    background: green;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#btn_assign_route:focus {
+    outline: none;
+}
+
+#btn_assign_route:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
+#btn_enable_route {
+    background: #007df6;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#btn_enable_route:focus {
+    outline: none;
+}
+
+#btn_enable_route:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
+.fieldsets {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.driverFieldset {
+    width: 50vw;
+    border: 2px solid green;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.routeFieldset {
+    width: 50vw;
+    border: 2px solid green;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
