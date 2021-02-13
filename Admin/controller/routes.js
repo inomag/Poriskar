@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const firebase = require('../db/firebase');
 const Route = require('../model/route');
 
@@ -12,11 +14,21 @@ exports.getAllRoutes = async (req, res, next) => {
         const roads = await firestore.collection('routes');
         const data = await roads.get();
         const roadsArray = [];
+        let latlng = [];
         if (data.empty) {
             res.status(404).send('No route found!');
         } else {
             data.forEach(doc => {
-                // console.log(doc.data());
+
+                latlng.push(JSON.stringify(doc.data().latitude));
+                latlng.push(JSON.stringify(doc.data().longitude));
+
+                // const city = setInterval(() => fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.4edf8bbe85b984dd6cbd44fe05bfc725&lat=27.235327&lon=94.095998&format=json`)
+                //     .then(res => res.json()).then(data => {
+                //         console.log(data);
+                //         return data;
+                //     }), 1000);
+
                 const route = new Route(
                     doc.id,
                     doc.data().name,
