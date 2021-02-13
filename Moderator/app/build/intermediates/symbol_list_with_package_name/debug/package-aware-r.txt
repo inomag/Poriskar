@@ -1856,6 +1856,7 @@ drawable ic_cross
 drawable ic_down
 drawable ic_down_arrow
 drawable ic_help
+drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1874,6 +1875,7 @@ drawable ic_person
 drawable ic_phone
 drawable ic_phone_outlined
 drawable ic_pin
+drawable ic_social
 drawable ic_startpage_bg
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2031,6 +2033,8 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottom_app_bar
+id bottom_navigation_view
 id bottom_to_top
 id bounce
 id buttonPanel
@@ -2121,6 +2125,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
@@ -2133,10 +2138,11 @@ id groups
 id guideline
 id hardware
 id header_title
-id help
+id help_appbar
 id hideable
 id home
 id homeAsUp
+id home_appbar
 id honorRequest
 id hr
 id hybrid
@@ -2313,6 +2319,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id social_appbar
 id software
 id spacer
 id spline
@@ -2372,7 +2379,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id top_bottom
@@ -2482,6 +2488,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_help
+layout fragment_home
+layout fragment_social
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2629,6 +2638,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

@@ -9,7 +9,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
+import androidx.fragment.app.Fragment;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 
 
@@ -17,27 +19,44 @@ public class HomeActivity extends AppCompatActivity {
 
     private TabLayout tab_layout;
     private NestedScrollView nested_scroll_view;
+    private BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        initToolbar();
         initComponent();
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new HomeFragment()).commit();
+        }
     }
 
-    private void initToolbar() {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setNavigationIcon(R.drawable.ic_menu);
-        toolbar.getNavigationIcon().setColorFilter(getResources().getColor(R.color.green), PorterDuff.Mode.SRC_ATOP);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(null);
-
-    }
 
     private void initComponent() {
         nested_scroll_view = (NestedScrollView) findViewById(R.id.nested_scroll_view);
+
+
+        bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation_view);
+        bottomNavigationView.setBackground(null);
+    //    bottomNavigationView.setItemIconTintList(null);
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
+            Fragment selectedFragment = null;
+            switch (item.getItemId()) {
+                case R.id.help_appbar:
+                    selectedFragment = new HelpFragment();
+                    break;
+                case R.id.social_appbar:
+                    selectedFragment = new SocialFragment();
+                    break;
+                case R.id.home_appbar:
+                    selectedFragment = new HomeFragment();
+                    break;
+            }
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    selectedFragment).commit();
+            return true;
+        });
 
     }
 

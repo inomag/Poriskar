@@ -3,9 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/help"
+        android:id="@+id/home_appbar"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/social_appbar"
+        android:title="Community"
+        android:icon="@drawable/ic_social"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/help_appbar"
         android:title="Help"
         android:icon="@drawable/ic_help"
         app:showAsAction="always"
-        android:iconTint="@color/green"/>
+       />
 </menu>
