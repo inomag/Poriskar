@@ -23,14 +23,14 @@ public class HomeActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
 
 
-    String myString;
+    Long myPhone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Intent intent=getIntent();
-        myString=intent.getStringExtra("phone");
+        myPhone=intent.getLongExtra("phone",0);
 
         initComponent();
         if (savedInstanceState == null) {
@@ -39,8 +39,8 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
-    public String getMyData(){
-        return myString;
+    public Long getMyData(){
+        return myPhone;
     }
 
 
