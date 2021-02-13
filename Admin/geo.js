@@ -1,7 +1,6 @@
 function initMap() {
     const geocoder = new google.maps.Geocoder();
-    const c = geocodeLatLng(geocoder, 26.9102547, 94.5799601);
-    console.log(c);
+    geocodeLatLng(geocoder,  26.4169232,91.062411);
     // geocodeLatLng(geocoder, 26.4169232,91.062411);
 }
 

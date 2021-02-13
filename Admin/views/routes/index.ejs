@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/routes.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7bN1ki27FuPWi-OaVnJZ1y5b7nTFhX_k&callback=initMap&libraries=&v=weekly" async></script>
     <title>Hello, world!</title>
 </head>
 
@@ -39,48 +40,48 @@
 
     <!-- LIST -->
 
-    <input type="text" id="lat" na>
-
     <div class="routesList">
         <% routes.forEach(route => {  %>
             <% if(route.id != 0) { %>
-                <p class="text-info routesListItem rectangle">
+                <div class="text-info routesListItem rectangle">
                     <strong> Name: 
                 <%= route.name %>
             </strong>
                     <br> ID:
                     <%= route.id %>
-                        <% } %>
-                            <% }); %>
+                        <br>
+                        <button class="btn btn-info" onclick="getAddress(`<%= route.latitude %>`, `<%= route.longitude %> `)">See Address
+                            </button>
+                        <p id="<%= route.latitude %>">
+
+                            <% } %>
+
+                </div>
+
+                <% }); %>
+
+
     </div>
 
-
-    <div id="map"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 <script>
-    const lat = document.getElementById('lat').value;
-    const lng = document.getElementById('lng').value;
-
-    function initMap() {
+    const getAddress = (lat, lng) => {
         const geocoder = new google.maps.Geocoder();
-        geocodeLatLng(geocoder, 26.4169232, 91.062411);
-    }
+        const location = new google.maps.LatLng(lat, lng);
 
-    const geocodeLatLng = (geocoder, lat, lng) => {
-        const latlng = {
-            lat,
-            lng
-        };
         geocoder.geocode({
-            location: latlng
+            'latLng': location
         }, (results, status) => {
             if (status === "OK") {
                 if (results) {
                     console.log(results);
-                    document.getElementById('map').innerHTML = `<h2>Address: ${results[1].formatted_address} </h2>`;
+                    const address = document.createElement('p');
+                    address.classList.add('text-info');
+                    address.innerText = `Address: ${results[0].formatted_address}`;
+                    document.getElementById(`${lat}`).appendChild(address);
                     return results;
                 } else {
                     window.alert("No results found");

@@ -20,10 +20,12 @@ app.use((req, res, next) => {
 const auth = require('./routes/auth');
 const driver = require('./routes/drivers');
 const route = require('./routes/routes');
+const location = require('./routes/locations');
 
 app.use('/', auth);
 app.use('/', driver);
 app.use('/', route);
+app.use('/', location);
 
 const PORT = process.env.PORT | 3000;
 
