@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\prati\\.gradle\\caches\\transforms-2\\files-2.1\\43a9726822229a3ef8bad49e16232bd7\\jetified-play-services-basement-17.0.0\\res\\values-pa\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "209",
-                        "endOffsets": "456"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3937",
-                        "endColumns": "209",
-                        "endOffsets": "4142"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\prati\\.gradle\\caches\\transforms-2\\files-2.1\\f24f285fed98fec75b889c09d17bbc49\\jetified-play-services-base-17.0.0\\res\\values-pa\\values.xml",
+                    "source": "C:\\Users\\prati\\.gradle\\caches\\transforms-2\\files-2.1\\44c3d269eb7e7b56295ae4dcd471bfb9\\jetified-play-services-base-17.3.0\\res\\values-pa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "2767,2876,3081,3213,3324,3530,3661,3804,4147,4368,4479,4683,4817,5029,5220,5316,5412",
                         "endColumns": "108,204,131,110,205,130,142,132,220,110,203,133,211,190,95,95,110",
                         "endOffsets": "2871,3076,3208,3319,3525,3656,3799,3932,4363,4474,4678,4812,5024,5215,5311,5407,5518"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prati\\.gradle\\caches\\transforms-2\\files-2.1\\cb61d4591aaf22ab166e9a4a9586e0fa\\jetified-play-services-basement-17.3.0\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "209",
+                        "endOffsets": "456"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3937",
+                        "endColumns": "209",
+                        "endOffsets": "4142"
                     }
                 },
                 {

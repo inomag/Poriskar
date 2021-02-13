@@ -2320,6 +2320,7 @@ mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw loading
 raw splash
+string Cancel
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2390,6 +2391,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string gps_network_not_enabled
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -2433,6 +2435,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string open_location_settings
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

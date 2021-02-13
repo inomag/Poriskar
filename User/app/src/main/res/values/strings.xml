@@ -11,6 +11,9 @@
     <string name="font_family_thin">sans-serif-thin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_location_settings">Please open Location Settings</string>
+    <string name="gps_network_not_enabled">gps not enabled Pleased enable it</string>
+    <string name="Cancel">Cancelled</string>
 
 
 </resources>

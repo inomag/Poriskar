@@ -11,5 +11,9 @@ com/example/user/SplashScreen.java
  com.example.user.SplashScreen$2
 com/example/user/MapMarker.java
  com.example.user.MapMarker
+ com.example.user.MapMarker$1
+ com.example.user.MapMarker$2
+ com.example.user.MapMarker$3
 com/example/user/Signup.java
  com.example.user.Signup
+ com.example.user.Signup$1
