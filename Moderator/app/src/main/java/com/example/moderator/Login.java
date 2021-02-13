@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -51,6 +52,7 @@ public class Login extends AppCompatActivity {
                                     List<DocumentSnapshot> doc = task.getResult().getDocuments();
                                     String passcode = doc.get(0).getString("password");
                                     if (pass.equals(passcode)){
+                                        startActivity(new Intent(getApplicationContext(),HomeActivity.class));
                                         Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
                                     }
                                     else{
