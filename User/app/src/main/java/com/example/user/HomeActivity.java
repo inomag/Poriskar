@@ -30,8 +30,10 @@ import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -44,7 +46,10 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -55,9 +60,16 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class HomeActivity extends AppCompatActivity {
+
+
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private TextView head,info;
+    private LottieAnimationView home_anim;
+    private String route;
 
     private BottomAppBar bottomAppBar;
     private BottomNavigationView bottomNavigationView;
@@ -89,7 +101,14 @@ public class HomeActivity extends AppCompatActivity {
         user_route = intent.getStringExtra("route");
         storageReference= FirebaseStorage.getInstance().getReference();
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation_view);
+        bottomNavigationView.setSelectedItemId(R.id.app_bar_home);
         bottomNavigationView.setBackground(null);
+        head = findViewById(R.id.home_card_head);
+        info = findViewById(R.id.driver_info);
+        home_anim = findViewById(R.id.home_anim);
+
+        updateCard();
+
         bottomAppBar = (BottomAppBar)findViewById(R.id.bottom_app_bar);
         if(ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(HomeActivity.this,
@@ -101,10 +120,41 @@ public class HomeActivity extends AppCompatActivity {
             showPostDialog();
         });
         initComponent();
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new HomeFragment()).commit();
-        }
+    }
+
+    private void updateCard() {
+
+        db.collection("routes").whereEqualTo("name",user_route).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            String driver="";
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                if (task.isSuccessful()){
+                    List<DocumentSnapshot> docs = task.getResult().getDocuments();
+                    DocumentSnapshot doc = docs.get(0);
+
+                    driver = doc.getString("driver");
+//                        Toast.makeText(getActivity().getApplicationContext(),driver,Toast.LENGTH_SHORT).show();
+                    db.collection("drivers").document(driver).addSnapshotListener(new EventListener<DocumentSnapshot>() {
+                        @Override
+                        public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
+                            if (value!=null){
+//                                Toast.makeText(getActivity().getApplicationContext(),value.getString("name"),Toast.LENGTH_SHORT).show();
+                                head.setText("Driver on the way");
+                                info.setText(value.getString("name")+", is 100m away");
+                                home_anim.setAnimation(R.raw.bell);
+                                home_anim.playAnimation();
+
+
+                            }
+
+                        }
+                    });
+                }
+            }
+        });
+
+
+
     }
 
     private void showPostDialog() {
@@ -314,23 +364,39 @@ public class HomeActivity extends AppCompatActivity {
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation_view);
         bottomNavigationView.setItemIconTintList(null);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
-            Fragment selectedFragment = null;
+//            Fragment selectedFragment = null;
             switch (item.getItemId()) {
                 case R.id.app_bar_help:
-                    selectedFragment = new HelpFragment();
+                    Intent intent = new Intent(getApplicationContext(),HelpActivity.class);
+                    intent.putExtra("id",id);
+                    intent.putExtra("route",user_route);
+                    startActivity(intent);
+                    finish();
                     break;
                 case R.id.app_bar_home:
-                    selectedFragment = new HomeFragment();
+                    Intent intent1 = new Intent(getApplicationContext(),HomeActivity.class);
+                    intent1.putExtra("id",id);
+                    intent1.putExtra("route",user_route);
+                    startActivity(intent1);
+                    finish();
                     break;
                 case R.id.app_bar_location:
-                    selectedFragment = new ListFragment();
+                    Intent intent2 = new Intent(getApplicationContext(),ListActivity.class);
+                    intent2.putExtra("id",id);
+                    intent2.putExtra("route",user_route);
+                    startActivity(intent2);
+                    finish();
                     break;
                 case R.id.app_bar_profile:
-                    selectedFragment = new ProfileFragment();
+                    Intent intent3 = new Intent(getApplicationContext(),ProfileActivity.class);
+                    intent3.putExtra("id",id);
+                    intent3.putExtra("route",user_route);
+                    startActivity(intent3);
+                    finish();
                     break;
             }
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    selectedFragment).commit();
+//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+//                    selectedFragment).commit();
             return true;
         });
     }

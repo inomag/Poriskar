@@ -37,6 +37,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.User" >
+        <activity android:name="com.example.user.ProfileActivity" />
+        <activity android:name="com.example.user.HelpActivity" />
+        <activity android:name="com.example.user.ListActivity" />
         <activity android:name="com.example.user.HomeActivity" />
         <activity android:name="com.example.user.MapMarker" />
 
