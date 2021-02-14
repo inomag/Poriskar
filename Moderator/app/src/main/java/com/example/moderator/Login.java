@@ -14,6 +14,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -52,6 +55,15 @@ public class Login extends AppCompatActivity {
                                     List<DocumentSnapshot> doc = task.getResult().getDocuments();
                                     String passcode = doc.get(0).getString("password");
                                     if (pass.equals(passcode)){
+                                        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+                                        firebaseAuth.signInAnonymously().addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                                if(task.isSuccessful()){
+                                                    FirebaseUser user = firebaseAuth.getCurrentUser();
+                                                }
+                                            }
+                                        });
                                        Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
                                        intent.putExtra("phone",l);
                                        startActivity(intent);

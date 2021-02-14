@@ -36,12 +36,12 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-anydpi\\ic_left.xml"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_camera.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_left.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_left.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_camera.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_light.ttf.flat",
@@ -52,24 +52,24 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_italic.ttf"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_help.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_help.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_mediumitalic.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_mediumitalic.ttf"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_help.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_help.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_thinitalic.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_thinitalic.ttf"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_opensanscondensed_lightitalic.ttf.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\opensanscondensed_lightitalic.ttf"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_social.xml.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-anydpi\\ic_social.xml"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_opensanscondensed_lightitalic.ttf.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\opensanscondensed_lightitalic.ttf"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_extraboldkitalic.ttf.flat",
@@ -124,12 +124,12 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\montserrat_extralight.ttf"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_bebas_neue_regular.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\bebas_neue_regular.ttf"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_down_arrow.png.flat",
@@ -172,16 +172,24 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_down_arrow.png"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_down.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_medium.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_medium.ttf"
     },
     {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_down.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thin.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\montserrat_thin.ttf"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_artists.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\recyclerview_artists.xml"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
@@ -228,12 +236,12 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_left.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_left.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pin.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_pin.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_left.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_left.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_help.png.flat",
@@ -252,16 +260,16 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down_arrow.png"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_menu.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock_outlined.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_lock_outlined.png"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_menu.png"
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
@@ -296,6 +304,10 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\ic_startpage_bg.xml"
     },
     {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_off.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\ic_location_off.png"
+    },
+    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_link.xml.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-anydpi\\ic_link.xml"
     },
@@ -320,12 +332,12 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_bold.ttf"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_bolditalic.ttf.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\worksans_bolditalic.ttf"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_person.xml.flat",
@@ -360,12 +372,16 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-anydpi\\ic_phone.xml"
     },
     {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_extralight_italic.ttf.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\montserrat_extralight_italic.ttf"
+    },
+    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_extralight_italic.ttf.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\font\\montserrat_extralight_italic.ttf"
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_social.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\activity_social.xml"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\font_worksans_semibolditalic.ttf.flat",
@@ -382,6 +398,14 @@
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_down_arrow.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xhdpi\\ic_down_arrow.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car.jpg.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\car.jpg"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_camera.png.flat",
@@ -406,6 +430,10 @@
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_phone.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_bg.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\card_bg.xml"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person.png.flat",
@@ -436,6 +464,10 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\menu\\homeactivity.xml"
     },
     {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\layout_post_item.xml.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\layout\\post_item.xml"
+    },
+    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\raw_home.json.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\raw\\home.json"
     },
@@ -456,20 +488,20 @@
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-mdpi\\ic_phone_outlined.png"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\raw_splash.json.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\raw\\splash.json"
     },
     {
-        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
-        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_social.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-hdpi\\ic_social.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_down.png.flat",
@@ -550,6 +582,10 @@
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_help.png.flat",
         "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable-xxhdpi\\ic_help.png"
+    },
+    {
+        "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on.png.flat",
+        "source": "D:\\Poriskar\\Moderator\\app\\src\\main\\res\\drawable\\ic_location_on.png"
     },
     {
         "merged": "D:\\Poriskar\\Moderator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_social.png.flat",

@@ -2,4 +2,8 @@
     <string name="app_name">Moderator</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcome">Map</string>
+
+    <string name="google_direction_api">AIzaSyA7bN1ki27FuPWi-OaVnJZ1y5b7nTFhX_k</string>
+    <string name="google_places_api">AIzaSyAiV8MGrT9E9Smrch6qggGdmj2-qDwFDQ8</string>
 </resources>
