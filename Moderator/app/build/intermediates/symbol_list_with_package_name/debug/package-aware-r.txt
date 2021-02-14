@@ -2572,7 +2572,6 @@ menu homeactivity
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
-raw done
 raw home
 raw loading
 raw splash

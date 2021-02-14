@@ -135,18 +135,14 @@ public class HomeActivity extends AppCompatActivity {
 
 
         bt_submit.setOnClickListener(v -> {
-
             Toast.makeText(getApplicationContext(),"Button Pressed",Toast.LENGTH_SHORT).show();
-
             if(f!=null){
                 uploadImageToFirebase(f.getName(),contentUri);
             }
-            if(imageFileName!=null)
-            {
+            if(imageFileName!=null){
                 uploadImageToFirebase(imageFileName,contentUri);
             }
             dialog.dismiss();
-            // String s=editText.getText().toString();
             Toast.makeText(getApplicationContext(), "Post Submitted", Toast.LENGTH_SHORT).show();
         });
 
@@ -236,6 +232,7 @@ public class HomeActivity extends AppCompatActivity {
                             @Override
                             public void onSuccess(DocumentReference documentReference) {
                                 Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_SHORT).show();
+                                putInUserCol();
                             }
                         });
                     }
@@ -248,6 +245,10 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(HomeActivity.this, "Upload failed", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void putInUserCol() {
+
     }
 
 

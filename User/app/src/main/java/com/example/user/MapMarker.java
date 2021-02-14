@@ -60,9 +60,11 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.Map;
 
 public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleMap.OnMapLongClickListener, TaskLoadedCallback {
 
@@ -90,6 +92,9 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
     private MarkerOptions source, destination;
 
     private Polyline currentPolyline;
+    LatLng userLocation;
+    int number;
+    String choose;
 
 
     @Override
@@ -131,13 +136,21 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
 
 
 
+
+
+
         spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 try {
-                    Toast.makeText(MapMarker.this, "Hello", Toast.LENGTH_SHORT).show();
+                //    Toast.makeText(MapMarker.this, "Hello", Toast.LENGTH_SHORT).show();
+
 
                     showPolyLine(position);
+                    number = position;
+                    choose = parent.getItemAtPosition(position).toString();
+            //        Toast.makeText(getApplicationContext(),choose,Toast.LENGTH_SHORT).show();
+
 
                 }
                 catch (Error e){
@@ -151,16 +164,52 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
 
 
 
+
+
+
+
+
         continue_to_home = (MaterialButton) findViewById(R.id.done_btn);
-        continue_to_home.setOnClickListener(v -> {
-            startActivity(new Intent(MapMarker.this, HomeActivity.class));
-            finish();
+        continue_to_home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               // Toast.makeText(getApplicationContext(),userLocation.latitude+ " "+ userLocation.longitude+" "+ choose,Toast.LENGTH_SHORT).show();
+
+                saveToDatabase();
+                startActivity(new Intent(MapMarker.this, HomeActivity.class));
+                finish();
+
+            }
         });
+
+
+
 
         SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         assert supportMapFragment != null;
         supportMapFragment.getMapAsync(this);
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
+    }
+
+    private void saveToDatabase() {
+
+        double userLatitude = userLocation.latitude;
+        double userLongitude = userLocation.longitude;
+        Toast.makeText(getApplicationContext(),String.valueOf(userLocation.latitude)+ " "+ String.valueOf(userLocation.longitude)+" "+ choose,Toast.LENGTH_SHORT).show();
+
+        Map<String, Object> user = new HashMap<>();
+        user.put("route",choose);
+        user.put("lat",String.valueOf(userLatitude));
+        user.put("lon",String.valueOf(userLongitude));
+
+        db.collection("users").document(id).update(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                Toast.makeText(getApplicationContext(),"Value added "+id,Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     private void showPolyLine(int position) {
@@ -284,6 +333,8 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
                     @Override
                     public void onSuccess(Location location) {
                         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+                        userLocation=latLng;
+                     //   Toast.makeText(getApplicationContext(),String.valueOf(userLocation.latitude),Toast.LENGTH_SHORT).show();
                         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 12));
                         mMap.addMarker(new MarkerOptions().position(latLng));
                     }

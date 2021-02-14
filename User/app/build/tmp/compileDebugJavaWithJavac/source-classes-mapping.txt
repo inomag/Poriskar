@@ -10,9 +10,10 @@ com/example/user/ProfileFragment.java
  com.example.user.ProfileFragment
 com/example/user/Login.java
  com.example.user.Login
-com/example/user/Signup.java
- com.example.user.Signup
- com.example.user.Signup$1
+com/example/user/SplashScreen.java
+ com.example.user.SplashScreen
+ com.example.user.SplashScreen$1
+ com.example.user.SplashScreen$2
 com/example/user/directionhelpers/PointsParser.java
  com.example.user.directionhelpers.PointsParser
 com/example/user/directionhelpers/FetchURL.java
@@ -41,7 +42,8 @@ com/example/user/MapMarker.java
  com.example.user.MapMarker$4
  com.example.user.MapMarker$5
  com.example.user.MapMarker$6
-com/example/user/SplashScreen.java
- com.example.user.SplashScreen
- com.example.user.SplashScreen$1
- com.example.user.SplashScreen$2
+ com.example.user.MapMarker$7
+ com.example.user.MapMarker$8
+com/example/user/Signup.java
+ com.example.user.Signup
+ com.example.user.Signup$1
