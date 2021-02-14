@@ -1981,7 +1981,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id image_link
+id img_post
 id info
 id invisible
 id italic

@@ -1,7 +1,8 @@
 package com.example.user;
 
 public class model {
-    String address,image;
+    String address;
+    static String image;
 
     public model(String address, String image) {
         this.address = address;
@@ -19,7 +20,7 @@ public class model {
         this.address = address;
     }
 
-    public String getImage() {
+    public static String getImage() {
         return image;
     }
 

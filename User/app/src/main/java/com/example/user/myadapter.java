@@ -32,6 +32,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
         holder.t1.setText(datalist.get(position).getAddress());
+        Picasso.get().load(model.getImage()).into(holder.img1);
     }
 
     @Override
@@ -41,11 +42,11 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myViewHolder>{
 
     class myViewHolder extends RecyclerView.ViewHolder{
 
-//        ImageView img1;
+        ImageView img1;
         TextView t1;
         public myViewHolder(@NonNull View itemView) {
             super(itemView);
-//            img1 = itemView.findViewById(R.id.img_post);
+            img1 = itemView.findViewById(R.id.img_post);
             t1 = itemView.findViewById(R.id.address);
 //            t2 = itemView.findViewById(R.id.image_link);
         }
