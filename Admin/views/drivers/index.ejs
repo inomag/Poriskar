@@ -11,7 +11,11 @@
                 <br> ID:
                 <%= driver.id %>
                     <br> Assigned Route:
-                    <%= driver.route %>
+                    <% if(driver.route){ %>
+                        <%= driver.route %>
+                            <% }else { %>
+                                <small>No route assigned yet!</small>
+                                <% } %>
             </p>
             <% }); %>
     </div>

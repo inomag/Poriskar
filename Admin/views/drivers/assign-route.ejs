@@ -4,46 +4,77 @@
     <!-- MONDAY -->
 
     <form class="formAssignRoutes" method="POST" action="/drivers/assign-route">
-        <div class="weekdayHeader">Monday</div>
-        <div class="assignContainer">
+        <div class="weekdayHeader">
+            <%= today %>
+        </div>
 
-            <fieldset class="driverFieldset">
+        <% if(today === 'Sunday'){ %>
 
-                <% drivers.forEach(driver => {  %>
+            <div class="assignContainer">
 
-                    <p><input type="radio" name="driverId" value="<%= driver.id %>" class="driverCheckbox"><span class="checkboxText">
+                <fieldset class="driverFieldset">
+
+                    <% drivers.forEach(driver => {  %>
+
+                        <p><input id="<%= driver.id %>" type="radio" name="driverId" value="<%= driver.id %>" class="driverCheckbox">
+                            <span class="checkboxText">
                         &nbsp&nbsp&nbsp
-                        <%= driver.name %> 
-                        </span></p>
+                      <strong><%= driver.name %> </strong>  
+                        </span>
 
-                    <% }); %>
-            </fieldset>
+                            <% if(driver.route){ %>
+                                <small>
+                        (<code>Assigned Route</code>-<%= driver.route %>)
+                        </small>
+
+                                <% }else { %>
+
+                                    <small>
+                                        (<code>No route assigned yet</code>)
+                                        </small>
+
+                                    <% } %>
+
+                        </p>
+
+                        <% }); %>
+                </fieldset>
 
 
-            <fieldset class="routeFieldset">
+                <fieldset class="routeFieldset">
 
-                <% routes.forEach(route => {  %>
+                    <% routes.forEach(route => {  %>
 
-                    <% if(route.id !== 0) {%>
+                        <% if(route.id !== 0) {%>
 
-                        <p><input type="radio" name="route" value="<%= route.id %>" class="routeCheckbox"><span class="checkboxText">
+                            <p><input type="radio" id="<%= route.id %>" name="route" value="<%= route.id %>" class="routeCheckbox"><span class="checkboxText">
                         &nbsp&nbsp&nbsp
-                        <%= route.name %>
+                       <strong> <%= route.name %></strong>
                     </span></p>
-                        <% } %>
 
-                            <% }); %>
-            </fieldset>
-            <div class="btnAssignContainer">
-                <div class="btnAssign">
-                    <button type="submit" id="btn_assign_route"> Assign </button>
+                            <% } %>
+
+                                <% }); %>
+                </fieldset>
+
+                <div class="btnAssignContainer">
+                    <div class="btnAssign">
+                        <button type="submit" id="btn_assign_route"> Assign </button>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
+
+
+            <% } else {%>
+                <div class="container jumbotron">
+                    <h4>Sunday, our office is closed!</h4>
+                </div>
+                <% }; %>
+
     </form>
 
     <script src="/js/assign.js"></script>
+
     </body>
 
     </html>

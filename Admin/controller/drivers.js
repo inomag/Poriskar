@@ -54,6 +54,7 @@ exports.assign_route_get = async (req, res) => {
         res.status(404).send('No driver found!');
     } else {
         data.forEach(doc => {
+            // console.log(doc.id);
             const driver = new Driver(
                 doc.id,
                 doc.data().name,
@@ -70,19 +71,26 @@ exports.assign_route_get = async (req, res) => {
             res.status(404).send('No route found!');
         } else {
             roadsData.forEach(doc => {
+                // console.log(doc.id);
                 const route = new Route(
                     doc.id,
                     doc.data().name,
                     doc.data().latitude,
-                    doc.data().longitude
+                    doc.data().longitude,
                 );
                 routesArray.push(doc.data());
+                // console.log(routesArray[0]);
             });
         }
 
+        const today = new Date();
+        const day = today.getDay();
+        const daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"];
+
         res.render('drivers/assign-route', {
             drivers: driversArray,
-            routes: routesArray
+            routes: routesArray,
+            today: daylist[day]
         });
     }
 }
@@ -92,9 +100,16 @@ exports.updateDriver = async (req, res) => {
     const drivers = await firestore.collection('drivers');
     const doc = await drivers.doc(driverId);
 
+    const routesRef = await firestore.collection('routes');
+    const routesData = await routesRef.doc(`route ${route}`);
+
     await doc.update({
         route
     });
 
-    res.redirect('/drivers');
+    await routesData.update({
+        driver: driverId
+    });
+
+    res.redirect('/drivers/assign-route');
 }
