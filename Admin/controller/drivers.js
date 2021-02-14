@@ -80,9 +80,14 @@ exports.assign_route_get = async (req, res) => {
             });
         }
 
+        const today = new Date();
+        const day = today.getDay();
+        const daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"];
+
         res.render('drivers/assign-route', {
             drivers: driversArray,
-            routes: routesArray
+            routes: routesArray,
+            today: daylist[day]
         });
     }
 }
@@ -96,5 +101,5 @@ exports.updateDriver = async (req, res) => {
         route
     });
 
-    res.redirect('/drivers');
+    res.redirect('/drivers/assign-route');
 }

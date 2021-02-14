@@ -28,7 +28,15 @@ Inside here, you will find our code, but the dependencies required are missing, 
 npm install
 ```
 
-After all the dependenices get installed in your node_modules file, you can run the app locally from your favorite text editor by runnig
+Now, since the current branch you have seen is `master` and our operational code lies in `admin-backend` branch, run
+
+```bash
+git checkout admin-backend
+```
+
+
+
+After all the dependenices get installed in your node_modules file, you can run the app locally from your favorite text editor by running
 
 ```bash
 npm start 
