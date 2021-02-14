@@ -22,9 +22,19 @@
                       <strong><%= driver.name %> </strong>  
                         </span>
 
-                            <small>
+                            <% if(driver.route){ %>
+                                <small>
                         (<code>Assigned Route</code>-<%= driver.route %>)
                         </small>
+
+                                <% }else { %>
+
+                                    <small>
+                                        (<code>No route assigned yet</code>)
+                                        </small>
+
+                                    <% } %>
+
                         </p>
 
                         <% }); %>

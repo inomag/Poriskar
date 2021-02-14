@@ -102,7 +102,6 @@ exports.updateDriver = async (req, res) => {
 
     const routesRef = await firestore.collection('routes');
     const routesData = await routesRef.doc(`route ${route}`);
-    // console.log(route, driverId);
 
     await doc.update({
         route
