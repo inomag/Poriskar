@@ -7,6 +7,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -27,6 +29,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -37,7 +40,9 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -46,6 +51,7 @@ import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -67,6 +73,11 @@ public class ListActivity extends AppCompatActivity {
     File f;
     String imageFileName, link, id, user_route;
     TextInputEditText editText;
+
+    RecyclerView recview;
+    ArrayList<model> datalist;
+    FirebaseFirestore dblist;
+    myadapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +107,25 @@ public class ListActivity extends AppCompatActivity {
         });
         initComponent();
 
+        recview = (RecyclerView)findViewById(R.id.recycler);
+        recview.setLayoutManager(new LinearLayoutManager(this));
+        datalist = new ArrayList<>();
+        adapter = new myadapter(datalist);
+        recview.setAdapter(adapter);
+
+        dblist = FirebaseFirestore.getInstance();
+        dblist.collection("users").document(id).collection("marked_places").get()
+                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                    @Override
+                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                        ArrayList<DocumentSnapshot> list = (ArrayList<DocumentSnapshot>) queryDocumentSnapshots.getDocuments();
+                        for(DocumentSnapshot d : list){
+                            model obj = d.toObject(model.class);
+                            datalist.add(obj);
+                        }
+                        adapter.notifyDataSetChanged();
+                    }
+                });
     }
 
     private void showPostDialog() {

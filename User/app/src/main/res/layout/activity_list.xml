@@ -13,21 +13,21 @@
         android:src="@drawable/ic_leaves"
         android:translationY="-42dp"
         app:tint="#293230" />
-    <FrameLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/fragment_shape"
         android:layout_marginTop="50dp"
+        android:padding="15dp"
         android:backgroundTint="#9902C799">
 
-        <!-- TODO: Update blank fragment layout -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/hello_blank_fragment" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/recycler"/>
 
-    </FrameLayout>
+    </LinearLayout>
 
 
 

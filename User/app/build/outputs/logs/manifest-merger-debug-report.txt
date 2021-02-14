@@ -17,6 +17,7 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\prati\.gradle\cac
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\bf2b3f29fde61d4f0090ede0324a147a\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\cee1c80cbbe30bfb6b52876ca0140076\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\74b0fb2af9ec5d538d8f92c39dfffe3e\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5465abd63c19daec9606b6862e3bc827\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\e455fb8beb31f52047ade5782deea9cd\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\e18984624d2b09abd97a7fcca0815ace\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\13f66d96bebc6adf18da4aed8eae6f8c\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -59,12 +60,13 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\prati\.gradle\caches\transfo
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\7bdd65300a9926cc2da20ae7efb3c5eb\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5b2f0d609e3f6517cc3bfc243bc4fe26\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\95ca676cc44fe34b2f324b8b64611c5b\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\7f050420fcd6e950ece57b0c61b4db40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\2752e1e9d8480b723daf47642785676c\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\26f8a07f14ec3354070cc037d7ea105c\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5d9e12b6cca0bd36112815c154ca2dbb\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\288a583f29ece4f3feb6bac082958a97\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\ee7b99de5da7a9e79e7bf180816d54dd\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\f54eda157765f16eb38302b33cf600f5\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\53e41922dd9bd3c9df517a27082fbb6d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\23f2871d61c3ca15e8fcb96f96e7be11\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\8fd3cf31de7f444da14a73ceee734e60\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -154,6 +156,8 @@ MERGED from [com.google.firebase:firebase-firestore:22.1.0] C:\Users\prati\.grad
 MERGED from [com.google.firebase:firebase-firestore:22.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\b720988cd8b573d6be86cb54f700c704\jetified-firebase-firestore-22.1.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\17994f790f1ceb6e42ee4d21f7940c32\jetified-firebase-storage-19.2.1\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\17994f790f1ceb6e42ee4d21f7940c32\jetified-firebase-storage-19.2.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5465abd63c19daec9606b6862e3bc827\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5465abd63c19daec9606b6862e3bc827\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\bc09b7725c907b8db832d24c820aa718\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\bc09b7725c907b8db832d24c820aa718\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a8ce8681ed0848c87a88a0a25a24928d\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
@@ -192,6 +196,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\prat
 MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\cb61d4591aaf22ab166e9a4a9586e0fa\jetified-play-services-basement-17.3.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\f54eda157765f16eb38302b33cf600f5\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\f54eda157765f16eb38302b33cf600f5\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\53e41922dd9bd3c9df517a27082fbb6d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\53e41922dd9bd3c9df517a27082fbb6d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -306,6 +312,8 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\prati\
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\cee1c80cbbe30bfb6b52876ca0140076\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\74b0fb2af9ec5d538d8f92c39dfffe3e\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\74b0fb2af9ec5d538d8f92c39dfffe3e\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5465abd63c19daec9606b6862e3bc827\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5465abd63c19daec9606b6862e3bc827\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\e455fb8beb31f52047ade5782deea9cd\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\e455fb8beb31f52047ade5782deea9cd\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\e18984624d2b09abd97a7fcca0815ace\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -390,8 +398,6 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\pr
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5b2f0d609e3f6517cc3bfc243bc4fe26\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\95ca676cc44fe34b2f324b8b64611c5b\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\95ca676cc44fe34b2f324b8b64611c5b\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\7f050420fcd6e950ece57b0c61b4db40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\7f050420fcd6e950ece57b0c61b4db40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\2752e1e9d8480b723daf47642785676c\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
@@ -402,6 +408,10 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prati\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\5d9e12b6cca0bd36112815c154ca2dbb\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\288a583f29ece4f3feb6bac082958a97\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\288a583f29ece4f3feb6bac082958a97\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\ee7b99de5da7a9e79e7bf180816d54dd\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\ee7b99de5da7a9e79e7bf180816d54dd\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\f54eda157765f16eb38302b33cf600f5\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\f54eda157765f16eb38302b33cf600f5\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\53e41922dd9bd3c9df517a27082fbb6d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\53e41922dd9bd3c9df517a27082fbb6d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\prati\.gradle\caches\transforms-2\files-2.1\23f2871d61c3ca15e8fcb96f96e7be11\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
