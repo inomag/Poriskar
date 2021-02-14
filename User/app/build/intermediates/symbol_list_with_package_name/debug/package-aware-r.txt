@@ -1929,6 +1929,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id driver_info
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -1966,6 +1967,8 @@ id hardware
 id hideable
 id home
 id homeAsUp
+id home_anim
+id home_card_head
 id honorRequest
 id hr
 id hybrid
@@ -2358,6 +2361,8 @@ menu profile_edit
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw bell
+raw clean
 raw loading
 raw splash
 string Cancel

@@ -4,16 +4,17 @@ com/example/user/HelpFragment.java
  com.example.user.HelpFragment
 com/example/user/HomeFragment.java
  com.example.user.HomeFragment
+ com.example.user.HomeFragment$1
+ com.example.user.HomeFragment$1$1
 com/example/user/ListFragment.java
  com.example.user.ListFragment
 com/example/user/ProfileFragment.java
  com.example.user.ProfileFragment
 com/example/user/Login.java
  com.example.user.Login
-com/example/user/SplashScreen.java
- com.example.user.SplashScreen
- com.example.user.SplashScreen$1
- com.example.user.SplashScreen$2
+com/example/user/Signup.java
+ com.example.user.Signup
+ com.example.user.Signup$1
 com/example/user/directionhelpers/PointsParser.java
  com.example.user.directionhelpers.PointsParser
 com/example/user/directionhelpers/FetchURL.java
@@ -44,6 +45,7 @@ com/example/user/MapMarker.java
  com.example.user.MapMarker$6
  com.example.user.MapMarker$7
  com.example.user.MapMarker$8
-com/example/user/Signup.java
- com.example.user.Signup
- com.example.user.Signup$1
+com/example/user/SplashScreen.java
+ com.example.user.SplashScreen
+ com.example.user.SplashScreen$1
+ com.example.user.SplashScreen$2

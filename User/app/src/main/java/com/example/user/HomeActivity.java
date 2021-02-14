@@ -41,7 +41,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -70,7 +72,7 @@ public class HomeActivity extends AppCompatActivity {
     public static final int GALLERY_REQUEST_CODE = 105;
     Uri contentUri;
     File f;
-    String imageFileName, link;
+    String imageFileName, link, id, user_route;
     TextInputEditText editText;
 
 
@@ -82,6 +84,9 @@ public class HomeActivity extends AppCompatActivity {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         window.setStatusBarColor(ContextCompat.getColor(this,R.color.black));
+        Intent intent = getIntent();
+        id = intent.getStringExtra("id");
+        user_route = intent.getStringExtra("route");
         storageReference= FirebaseStorage.getInstance().getReference();
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation_view);
         bottomNavigationView.setBackground(null);
@@ -235,6 +240,10 @@ public class HomeActivity extends AppCompatActivity {
                                 putInUserCol();
                             }
                         });
+                        Map<String,Object> sub = new HashMap<>();
+                        sub.put("address",editText.getText().toString());
+                        sub.put("image",link);
+                        db.collection("users").document(id).collection("marked_places").add(sub);
                     }
                 });
                 Toast.makeText(HomeActivity.this,"Image Uploaded",Toast.LENGTH_SHORT).show();
@@ -324,5 +333,14 @@ public class HomeActivity extends AppCompatActivity {
                     selectedFragment).commit();
             return true;
         });
+    }
+
+    public String getUserId() {
+        return id;
+    }
+
+
+    public String getRoute() {
+        return user_route;
     }
 }

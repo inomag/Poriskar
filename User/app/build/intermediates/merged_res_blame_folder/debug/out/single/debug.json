@@ -1,15 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera.png.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_camera.png"
     },
     {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_lock_outlined.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_lock_outlined.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_bell.json.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\bell.json"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock.png.flat",
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_help.xml.flat",
         "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\drawable-anydpi\\ic_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\raw_clean.json.flat",
+        "source": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\src\\main\\res\\raw\\clean.json"
     },
     {
         "merged": "C:\\Users\\prati\\Desktop\\Android-Projects\\Poriskar\\User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone_outlined.png.flat",

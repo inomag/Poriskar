@@ -177,9 +177,11 @@ public class MapMarker extends AppCompatActivity implements OnMapReadyCallback, 
                // Toast.makeText(getApplicationContext(),userLocation.latitude+ " "+ userLocation.longitude+" "+ choose,Toast.LENGTH_SHORT).show();
 
                 saveToDatabase();
-                startActivity(new Intent(MapMarker.this, HomeActivity.class));
+                Intent intent = new Intent(MapMarker.this,HomeActivity.class);
+                intent.putExtra("id",id);
+                intent.putExtra("route",choose);
+                startActivity(intent);
                 finish();
-
             }
         });
 
